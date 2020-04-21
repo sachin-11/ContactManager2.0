@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Contacts from "./components/Contacts";
-import Header from "./components/Header";
+import Contacts from "./components/contacts/Contacts";
+import Header from "./components/layout/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Provider } from "./components/context";
+import { Provider } from "./context";
 
 class App extends Component {
   render() {

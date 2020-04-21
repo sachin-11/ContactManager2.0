@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from "react";
-import Contact from "../components/Contact";
-import { Consumer } from "../components/context";
+import Contact from "../../components/contacts/Contact";
+import { Consumer } from "../../context";
 
 class Contacts extends Component {
   render() {
